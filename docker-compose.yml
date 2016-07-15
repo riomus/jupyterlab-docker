@@ -5,3 +5,6 @@ jupyter_lab:
                 - 8888:8888
         volumes:
                 - "./data:/home/jovyan/work"
+        environment:
+                - GRANT_SUDO=yes
+                - PASSWORD=enterPassHere2016
