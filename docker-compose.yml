@@ -1,0 +1,6 @@
+jupyter_lab:
+        build: ./docker
+        ports:
+                - 8888:8888
+        volumes:
+                - "./data:/home/jovyan/work"
